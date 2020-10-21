@@ -1,0 +1,38 @@
+body{
+    background-image: url("Img/fundo.png");
+    text-align: center;
+    width:100%;
+    background-attachment:fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    color: azure;
+    
+}
+
+#minhafoto{
+    border-radius: 20%;
+    
+}
+    
+h1{
+    font-family: cursive, sans-serif;
+}
+
+h2{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+.rodape{
+    background-color:transparent;
+    background-position: absolute bottom;
+
+}
+
+.simbolos{
+    width: 15%;
+    border-radius: 200%
+}
