@@ -1,17 +1,18 @@
 body{
     background-image: url("Img/fundo.png");
-    text-align: center;
-    width:100%;
-    background-attachment:fixed;
     background-size: cover;
-    background-repeat: no-repeat;
-    color: azure;
     
 }
 
 #minhafoto{
     border-radius: 20%;
+    margin-bottom: 150px;
     
+}
+
+.header{
+    color: white;
+    text-align: center;
 }
     
 h1{
@@ -27,12 +28,18 @@ ul{
 }
 
 .rodape{
-    background-color:transparent;
-    background-position: absolute bottom;
+    
+    
 
 }
 
-.simbolos{
-    width: 15%;
-    border-radius: 200%
+.simbolosgit{
+    width: 100px;
+                   
+}
+
+.simboloslink{
+    width: 100px;
+    border-radius: 60%;
+    margin-left: 20px;
 }
