@@ -1,0 +1,47 @@
+body{
+    background-image: url("Img/fundo.png");
+    background-size: cover;
+    
+}
+
+#minhafoto{
+    border-radius: 20%;
+    margin-bottom: 150px;
+        
+}
+
+.header{
+    color: white;
+    text-align: center;
+}
+    
+h1{
+    font-family: cursive, sans-serif;
+}
+
+h2{
+    text-align: left;
+}
+
+ul{
+    text-align: left;
+}
+
+.rodape{
+    
+    
+
+}
+
+.simbolosgit{
+    width: 100px;
+    opacity:50%;
+                   
+}
+
+.simboloslink{
+    width: 100px;
+    border-radius: 60%;
+    margin-left: 20px;
+    opacity: 50%;
+}
