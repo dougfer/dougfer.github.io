@@ -1,15 +1,17 @@
-import { useContext } from 'react';
+import { useContext, useState } from 'react';
 import MyContext from '../context/MyContext';
 import Styles from './home.module.css';
 
 function Home() {
 
-  const {playing} = useContext(MyContext);
+  const {playing, light} = useContext(MyContext);
 
   return(
-    <div className={!playing ? Styles.claro : Styles.escuro}>
+    <body className={playing ? Styles.claro : Styles.escuro}>
       Aqui é a página HOME
-    </div>
+      {!playing && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 100)}%`}} className={Styles.sprite1} />}
+      {!playing && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 100)}%`}} className={Styles.sprite2} />}
+    </body>
   )
 }
 

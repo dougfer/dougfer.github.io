@@ -11,3 +11,34 @@
   z-index: -9999;
   transition: 0.5s;
 }
+
+.sprite1 {
+  height: 200px;
+  width: 120px;
+  background: url('../util/Images/lightning.png')
+    0px 0px;
+  animation: play 0.8s steps(6) infinite;
+  z-index: 1;
+  margin-left: 1800px;
+}
+@keyframes play {
+  100% {
+    background-position: -1500px;
+  }
+}
+
+.sprite2 {
+  height: 200px;
+  width: 120px;
+  background: url('../util/Images/lightning.png')
+    0px 0px;
+  animation: play 0.8s steps(6) infinite;
+  z-index: 1;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+@keyframes play {
+  100% {
+    background-position: -1500px;
+  }
+}
