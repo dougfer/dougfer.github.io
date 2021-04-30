@@ -1,0 +1,9 @@
+.footer {
+  background: url('../util/Images/FooterBackground.png');
+  height: 500px;
+  bottom: 0;
+  color: RED;
+  position: absolute;
+  z-index: 9999;
+  width: 100vw;
+}

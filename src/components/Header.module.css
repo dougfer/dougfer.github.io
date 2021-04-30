@@ -1,0 +1,8 @@
+.headerImg {
+  height: 100px;
+}
+
+.header {
+  background: url('../util/Images/background-dia-claro.png');
+  height: 0;
+}
