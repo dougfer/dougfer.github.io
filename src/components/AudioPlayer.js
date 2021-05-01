@@ -16,7 +16,7 @@ function AudioPlayer({file}) {
 
   const { togglePlayPause, volume } = useAudioPlayer({
     autoplay: false,
-    // src:file,
+    src:file,
     format: 'mp3',
     loop: true,
   });

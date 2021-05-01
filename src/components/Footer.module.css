@@ -1,17 +1,17 @@
 .footer {
-  background: url('../util/Images/FooterBackground.png');
-  height: 500px;
+  background: url('../util/Images/testeNew.png');
+  height: 250px;
   bottom: 0;
-  color: RED;
   position: absolute;
   z-index: 9999;
   width: 100vw;
 }
 
+
 .dixieF {
   height: 100px;
   position: relative;
-  top: 285px;
+  bottom: -100px;
   left: 74%; /*74 a 90*/
   transition: 7s;
 }
@@ -19,7 +19,7 @@
 .dixieB {
   height: 100px;
   position: relative;
-  top: 300px;
+  top: 5px;
   left: 90%; /*68 a 85*/
   transition: 7s;
 }

@@ -1,15 +1,5 @@
-.claro {
-  background: url('../util/Images/background-dia-claro.png');
-  height: 100vh;
-  z-index: -9999;
-  transition: 0.5s;
-}
-
-.escuro {
-  background: url('../util/Images/background-dia-escuro.png');
-  height: 100vh;
-  z-index: -9999;
-  transition: 0.5s;
+*{
+  transition: all 0.5s;
 }
 
 .sprite1 {
@@ -18,7 +8,7 @@
   background: url('../util/Images/lightning.png')
     0px 0px;
   animation: play 0.8s steps(6) infinite;
-  z-index: 1;
+  position: fixed;
   margin-left: 1800px;
 }
 @keyframes play {
@@ -33,7 +23,7 @@
   background: url('../util/Images/lightning.png')
     0px 0px;
   animation: play 0.8s steps(6) infinite;
-  z-index: 1;
+  position: fixed;
   margin-top: 200px;
   margin-left: 600px;
 }
@@ -41,4 +31,100 @@
   100% {
     background-position: -1500px;
   }
+}
+
+.mainContainer{
+  z-index: 1;
+  position: absolute;
+  width: 80%;
+  height: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainClaro {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #07252d;
+  font-family: arial;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.mainClaro h2 {
+  position: relative;
+  font-size: 3rem;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.70em;
+  outline: none;
+  animation: animateClaro 10s linear infinite;
+}
+
+@keyframes animateClaro {
+  0%, 18%,20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color:#0e3742;
+    box-shadow: none;
+  }
+  18.1%, 20.1%, 30%, 50%, 60.1% ,65% ,80.1%, 90%, 92.1%, 100% {
+    color:#fff;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+
+
+  }
+
+}
+
+.mainEscuro {
+  width: 60%;
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #E6E9EE;
+  font-family: arial;
+  opacity: 0.9;
+  border-radius: 25px;
+}
+
+.mainEscuro h2 {
+  position: relative;
+  font-size: 3rem;
+  letter-spacing: 15px;
+  color: #0e3742;
+  text-transform: uppercase;
+  text-align: center;
+  -webkit-box-reflect: below 1px linear-gradient(transparent, #0004);
+  line-height: 0.70em;
+  outline: none;
+  animation: animateEscuro 10s linear infinite;
+}
+
+@keyframes animateEscuro {
+  0%, 18%,20%, 50.1%, 60%, 65.1%, 80%, 90.1%, 92% {
+    color:#0e3742;
+    box-shadow: none;
+  }
+  18.1%, 20.1%, 30%, 50%, 60.1% ,65% ,80.1%, 90%, 92.1%, 100% {
+    color:	#656D78;
+    text-shadow: 0 0 10px #03bcf4,
+    0 0 20px #03bcf4,
+    0 0 40px #03bcf4,
+    0 0 80px #03bcf4,
+    0 0 160px #03bcf4;
+
+
+  }
+
 }

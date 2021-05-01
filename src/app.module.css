@@ -1,0 +1,35 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.routeContainer {
+  height: 100%;
+  width: 84%;
+  margin-left: auto;
+}
+
+.claro {
+  background: url('./util/Images/background-dia-claro.png');
+  height: 100vh;
+  z-index: -9999;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+
+.escuro {
+  background: url('./util/Images/background-dia-escuro.png');
+  height: 100vh;
+  z-index: -9999;
+  transition: 0.5s;
+  display: flex;
+  flex-direction: column;
+}
+
+.divs {
+  height: 80%;
+  display: flex;
+}

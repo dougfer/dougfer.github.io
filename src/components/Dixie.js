@@ -10,7 +10,7 @@ function Dixie() {
 
   return (
     <div>
-      { playing && <img alt="" className={!dix ? Styles.dixieF : Styles.dixieB}  src={dix ? DixieF : DixieB} />}
+      { playing && <img alt="" className={!dix ? Styles.dixieB : Styles.dixieF}  src={dix ? DixieF : DixieB} />}
     </div>
   )
 }
