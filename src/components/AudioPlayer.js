@@ -9,14 +9,14 @@ import MyContext from "../context/MyContext";
 
 function AudioPlayer({file}) {
 
-  const {playing, setPlaying, setDix} = useContext(MyContext);
+  const {playing, setPlaying} = useContext(MyContext);
 
   const [click, setClick] = useState(true)
   const [loading, setLoading] = useState(false)
 
   const { togglePlayPause, volume } = useAudioPlayer({
     autoplay: false,
-    src:file,
+    src: file,
     format: 'mp3',
     loop: true,
   });
@@ -37,12 +37,6 @@ function AudioPlayer({file}) {
       setLoading(false)
     },300 )
   }
-
-  // const delay = () => {
-  //   setTimeout(() => {
-  //     setDix(true)
-  //   },500)
-  // }
 
   return (
     <div>

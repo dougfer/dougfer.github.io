@@ -1,6 +1,8 @@
 .headerImg {
   height: 100px;
   position: fixed;
+  top: 165px;
+  left: 70px;
 }
 
 .header {
