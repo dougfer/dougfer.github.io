@@ -7,5 +7,60 @@
   justify-content: center;
   align-items: center;
   color: white;
-  border: 2px solid yellow;
 }
+
+.mainDiv {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E9EAEB;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.header {
+  height: 20%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: thick;
+  flex-direction: column;
+}
+
+.header img {
+  width: 35%;
+  margin: 0;
+}
+
+/* .header::after {
+  content: '';
+  width: 200px;
+  height: 1px;
+  background: rgba(0, 0, 0, 0.2);
+} */
+
+.header h2 {
+  letter-spacing: 3px;
+  font-size: 35px;
+  margin-top: 22px;
+}
+
+.projectContainer {
+  height: 100%;
+  background-color: red;
+  display: flex;
+  flex-direction: row;
+}
+
+.carousel-root{
+  width: 100%;
+  display: flex;
+}
+/* 
+.imgSection {
+  width: 50%;
+  height: 100%;
+} */

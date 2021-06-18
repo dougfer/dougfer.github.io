@@ -1,11 +1,44 @@
 .headerImg {
   height: 100px;
-  position: fixed;
-  top: 165px;
+  display: flex;
+  position: absolute;
+  top: 5%;
   left: 70px;
 }
 
 .header {
   background: url('../util/Images/background-dia-claro.png');
   height: 0;
+}
+
+
+.sprite1 {
+  height: 200px;
+  width: 120px;
+  background: url('../util/Images/lightning.png')
+    0px 0px;
+  animation: play 0.8s steps(6) infinite;
+  position: fixed;
+  margin-left: 1800px;
+}
+@keyframes play {
+  100% {
+    background-position: -1500px;
+  }
+}
+
+.sprite2 {
+  height: 200px;
+  width: 120px;
+  background: url('../util/Images/lightning.png')
+    0px 0px;
+  animation: play 0.8s steps(6) infinite;
+  position: fixed;
+  margin-top: 200px;
+  margin-left: 600px;
+}
+@keyframes play {
+  100% {
+    background-position: -1500px;
+  }
 }

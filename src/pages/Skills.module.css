@@ -31,16 +31,23 @@
   flex-direction: column;
 }
 
-.header::after {
+/* .header::after {
   content: '';
   width: 200px;
   height: 1px;
   background: rgba(0, 0, 0, 0.2);
+} */
+
+.header img {
+  width: 35%;
+  margin: 0;
 }
+
 
 .header h2 {
   letter-spacing: 3px;
   font-size: 35px;
+  margin-top: 20px;
 }
 
 .mainSection {
@@ -48,6 +55,7 @@
   background: url('../util/Images/watching.png');
   background-repeat: no-repeat;
   background-position: bottom right;
+  background-size: 300px;
 }
 
 .section1 {

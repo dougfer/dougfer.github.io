@@ -38,3 +38,9 @@
 .sobre {
   border-radius: 0 0 20px 20px;
 }
+
+.Cranky {
+  position: relative;
+  bottom: 100px;
+  margin-left: -10%;
+}

@@ -5,15 +5,8 @@
   position: absolute;
   /* z-index: 9999; */
   width: 100%;
-}
+  overflow: hidden;
 
-
-.dixieF {
-  height: 100px;
-  position: relative;
-  bottom: -100px;
-  left: 60%; /*74 a 90*/
-  transition: 7s;
 }
 
 .dixieB {
@@ -21,14 +14,24 @@
   position: relative;
   top: 5px;
   left: 90%;
-  animation: run 9s infinite;
+  animation: run 18s infinite;
 }
 
  @keyframes run {
   0% {
-    left: 90%;
+    left: -15%;
+  }
+  10%,20%,30%,40%,49% {
+    transform: rotate(0deg) scaleX(-1);
   }
 
+  50% {
+    transform: rotate(0deg) scaleX(0);
+    left: 110%;
+  }
+  50.1%, 60%,70%,80%,90% {
+    transform: rotate(0deg) scaleX(1);
+  }
   100% {
     left: -10%;
   }

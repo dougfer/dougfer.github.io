@@ -1,4 +1,5 @@
 import Styles from './Skills.module.css';
+import line from '../util/Images/line.png';
 
 function Skills() {
   return (
@@ -6,6 +7,7 @@ function Skills() {
       <div className={Styles.mainDiv}>
         <header className={Styles.header}>
           <h2>Skills</h2>
+          <img src={line} />
         </header>
         <div className={Styles.mainSection}>
           <section className={Styles.section1}>

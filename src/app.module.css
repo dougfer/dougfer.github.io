@@ -2,6 +2,7 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: none;
 }
 
 .routeContainer {
@@ -33,3 +34,4 @@
   height: 80%;
   display: flex;
 }
+
