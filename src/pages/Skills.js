@@ -1,4 +1,4 @@
-import Styles from './Skills.module.css';
+import Styles from './Skills.module.scss';
 import line from '../util/Images/line.png';
 
 function Skills() {
@@ -23,6 +23,9 @@ function Skills() {
               <li>Styled Components</li>
               <li>RTL</li>
               <li>MySQL</li>
+              <li>MongoDB</li>
+              <li>Node.Js</li>
+              <li>Express</li>
             </ul>
           </section>
         </div>

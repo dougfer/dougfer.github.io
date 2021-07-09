@@ -45,7 +45,7 @@ function AudioPlayer({file}) {
       ) : (
         <div>
           <input className={Styles.headerImg} onClick={() => {togglePlayPause(); setPlaying(!playing); onLoad()}} type="image" title="Click me" src={!playing ? crankyChair : crankyPlaying} alt="" />
-          {click && !playing && <span>Click Me</span>}
+          {/* {click && !playing && <span>Click Me</span>} */}
         </div>
       )}
     </div>

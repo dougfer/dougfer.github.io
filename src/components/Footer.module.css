@@ -12,6 +12,7 @@
 .dixieB {
   height: 100px;
   position: relative;
+  cursor: not-allowed;
   top: 5px;
   left: 90%;
   animation: run 18s infinite;
@@ -19,7 +20,7 @@
 
  @keyframes run {
   0% {
-    left: -15%;
+    left: -20%;
   }
   10%,20%,30%,40%,49% {
     transform: rotate(0deg) scaleX(-1);
@@ -33,6 +34,6 @@
     transform: rotate(0deg) scaleX(1);
   }
   100% {
-    left: -10%;
+    left: -25%;
   }
 } 

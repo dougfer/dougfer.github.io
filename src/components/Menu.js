@@ -1,7 +1,7 @@
 import { Link } from 'react-router-dom';
 import { AudioPlayerProvider } from 'react-use-audio-player';
 import AudioPlayer from './AudioPlayer';
-import Styles from './Menu.module.css';
+import Styles from './Menu.module.scss';
 import song from'../util/Songs/donkey.mp3';
 
 

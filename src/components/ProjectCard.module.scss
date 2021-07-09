@@ -1,0 +1,91 @@
+.CardContainer {
+  padding: 10px;
+  height: 90%;
+  width: 400px;
+  background-color: #d2dde2;
+  border-radius: 20px;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 1em rgb(0,0,0, 0.5);
+
+  img {
+    margin-top: 20px;
+    max-width: 100%;
+    opacity: 1;
+    transition: all 0.5s;
+    max-height: 80%;
+  }
+
+  h3 {
+    color: black;
+  }
+
+  button {
+    position: absolute;
+    // left: 30%;
+    left: 30%;
+    bottom: 40%;
+    opacity: 0;
+    transition: all 0.5s;
+    padding: 20px;
+    color: white;
+    background: none;
+    border-radius: 25px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background: linear-gradient(to right, #373b44, #4286f4);
+  }
+
+  button:hover {
+    border: 2px solid white;
+  }
+}
+
+.CardContainer:hover {
+  img {
+    filter: blur(9px);
+  }
+
+  button {
+    opacity: 1;
+    cursor: pointer;
+  }
+
+  img:hover {
+    filter: blur(8px);
+  }
+}
+
+@media screen and (max-width: 1280px) {
+  
+  .CardContainer {
+    width: 300px;
+
+    button {
+      left: 25%
+    }
+  }
+
+}
+
+@media screen and (max-width: 414px) {
+
+  .CardContainer {
+    button {
+      left: 20%
+    }
+  }
+
+}
+
+
+@media screen and (max-width: 375px) {
+
+  .CardContainer {
+    button {
+      left: 18%
+    }
+  }
+
+}

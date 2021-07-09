@@ -1,6 +1,6 @@
 import { useContext } from 'react';
 import MyContext from '../context/MyContext';
-import Styles from './Home.module.css';
+import Styles from './Home.module.scss';
 
 function Home() {
 
