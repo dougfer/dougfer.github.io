@@ -2,7 +2,7 @@
   padding: 10px;
   height: 90%;
   width: 400px;
-  background-color: #d2dde2;
+  background: linear-gradient(360deg, #56CCF2, #C4E0E5);
   border-radius: 20px;
   position: relative;
   display: flex;
@@ -23,7 +23,6 @@
 
   button {
     position: absolute;
-    // left: 30%;
     left: 30%;
     bottom: 40%;
     opacity: 0;
@@ -57,10 +56,10 @@
   }
 }
 
-@media screen and (max-width: 1280px) {
+@media screen and (min-width: 1100px) and (max-width: 1500px) {
   
   .CardContainer {
-    width: 300px;
+    width: 45%;
 
     button {
       left: 25%
@@ -68,6 +67,33 @@
   }
 
 }
+
+@media screen and (min-width: 950px) and (max-width: 1100px) {
+  
+  .CardContainer {
+    width: 45%;
+    height: 70%;
+
+    button {
+      left: 20%
+    }
+  }
+
+}
+
+@media screen and (min-width: 880px) and (max-width: 950px) {
+  
+  .CardContainer {
+    width: 45%;
+    height: 70%;
+
+    button {
+      left: 17%
+    }
+  }
+
+}
+
 
 @media screen and (max-width: 414px) {
 

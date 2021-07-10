@@ -68,7 +68,6 @@
   padding: 10px;
   margin: 10px;
   width: 50%;
-  justify-content: space-between;
 
 }
 .section1 ul li{
@@ -98,6 +97,47 @@
   .section1 {
     ul li {
       font-size: 17px;
+      margin-left: 3px;
+      margin-right: 3px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .mainSection {
+    background: none;
+  }
+
+  .mainContainer {
+    width: 100%;
+    left: 0;
+    height: 90%;
+    margin-top: 70px;
+  }
+  
+  .section1 {
+    ul li {
+      font-size: 100%;
+      margin-left: 3px;
+      margin-right: 20px;
+    }
+  }
+
+}
+
+@media screen and (max-width: 650px) and (min-width: 415px) {
+
+  .mainContainer {
+    width: 100%;
+    left: 0;
+    height: 90%;
+    margin-top: 70px;
+  }
+
+  .section1 {
+    ul li {
+      font-size: 90%;
       margin-left: 3px;
       margin-right: 3px;
     }
