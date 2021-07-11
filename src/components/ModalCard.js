@@ -18,7 +18,7 @@ function ModalCard({projectData, close}) {
       </div>
       <div className={Styles.links}>
         <a href={projectData.githubLink} target="_blank"><GitHubIcon fontSize="large" /></a>
-        <a href={projectData.githubPage} target="_blank"><ComputerIcon fontSize="large" /></a>
+        { projectData.githubPage ?  <a href={projectData.githubPage} target="_blank"><ComputerIcon fontSize="large" /></a> : ''}
       </div>
     </div>
   )

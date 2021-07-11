@@ -1,0 +1,170 @@
+.mainContainer{
+  z-index: 1;
+  position: absolute;
+  width: 80%;
+  height: 73%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  box-sizing: border-box;
+}
+
+.mainDiv {
+  width: 70%;
+  height: 80%;
+  display: flex;
+  flex-direction: column;
+  background-color: #E9EAEB;
+  box-shadow: 4px 4px 4px 4px rgba(0, 0, 0, 0.2);
+  opacity: 0.9;
+  border-radius: 5px;
+}
+
+.header {
+  height: 20%;
+  color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: thick;
+  flex-direction: column;
+
+  img {
+    width: 35%;
+    margin: 0;
+  }
+
+  h2 {
+    letter-spacing: 3px;
+    font-size: 35px;
+    margin-top: 22px;
+  }
+}
+
+.aboutSection {
+  display: flex;
+  flex-direction: row;
+  height: 80%;
+}
+
+.imageSection {
+  // background-color: red;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  img {
+    height: 50%;
+    border-radius: 100%;
+    // background-color: aqua;
+  }
+}
+
+.dataSection {
+  // background-color: aqua;
+  width: 100%;
+  color: black;
+
+  h4 {
+    margin-top: 30px;
+  }
+
+  p {
+    margin: 2% 0  
+  }
+
+  footer {
+    margin-top: 15%;
+
+    a {
+      margin-right: 20px;
+      color: inherit; 
+      text-decoration: inherit;
+      width: 40px;
+    }
+  }
+}
+
+
+@media screen and (max-width: 1650px) {
+  .dataSection {
+    footer {
+      margin-top: 5%;
+    }
+  }
+
+}
+
+@media screen and (max-width: 1135px) {
+  .dataSection {
+    font-size: 90%;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+  .mainContainer {
+    left: 0;
+    width: 100%;
+    margin-top: 100px;
+
+  }
+
+  // .aboutSection {
+  //   display: flex;
+  //   flex-direction: column;
+  //   justify-content: center;
+  //   align-items: center;
+  // }
+
+  .imageSection {
+    img {
+      height: 70%;
+    }
+  }
+
+  .icons {
+    position: absolute;
+    bottom: 10%;
+    left: 45%;
+  }
+
+  .dataSection {
+    padding: 20px;
+  }
+
+}
+
+
+@media screen and (max-width: 550px) {
+  .mainContainer {
+    height: 90%;
+    margin-top: 50px;
+  }
+
+  .aboutSection {
+    justify-content: flex-start;
+  }
+
+  .imageSection {
+    justify-content: center;
+    align-items: flex-start;
+    height: 50%;
+
+    img {
+      height: 250px;
+    }
+  }
+
+
+}
+
+@media screen and (max-width: 350px) {
+  .mainContainer {
+    height: 95%;
+    margin-top: 50px;
+  }
+
+}

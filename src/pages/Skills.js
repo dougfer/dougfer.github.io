@@ -20,7 +20,7 @@ function Skills() {
               <li>Context API</li>
               <li>Git</li>
               <li>GitHub</li>
-              <li>Styled Components</li>
+              <li>Sass</li>
               <li>RTL</li>
               <li>MySQL</li>
               <li>MongoDB</li>
