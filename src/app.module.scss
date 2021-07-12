@@ -2,7 +2,8 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  scroll-behavior: none;
+  // scroll-behavior: none;
+  // overflow-y: auto;
 }
 
 .routeContainer {
@@ -41,12 +42,35 @@
   top: 10px;
   opacity: 0;
   cursor: auto;
+  // z-index: 9999;
 }
 
 @media screen and (max-width: 850px) {
   .menuIcon {
     opacity: 1;
     cursor: pointer;
+  }
+}
+
+@media (max-height: 500px) {
+  .claro {
+    height: 700px;
+  }
+
+  .escuro {
+    height: 700px;
+    overflow-y: scroll;
+  }
+}
+
+@media (max-height: 800px) {
+  .claro {
+    height: 900px;
+  }
+
+  .escuro {
+    height: 900px;
+    overflow-y: scroll;
   }
 }
 

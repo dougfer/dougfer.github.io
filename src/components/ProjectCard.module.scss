@@ -115,3 +115,17 @@
   }
 
 }
+
+@media (max-height: 500px) {
+  .CardContainer {
+    padding-bottom: 0;
+
+    button {
+      position: relative;
+      margin: auto;
+      left: auto;
+    }
+  }
+} 
+
+

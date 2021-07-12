@@ -9,8 +9,8 @@ function Header() {
 
   return(
     <header className={Styles.header}>
-      {!playing && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 80)}%`}} className={Styles.sprite1} />}
-      {!playing && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 80)}%`}} className={Styles.sprite2} />}
+      {!playing && !window.matchMedia("(max-width: 500px)").matches && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 80)}%`}} className={Styles.sprite1} />}
+      {!playing && !window.matchMedia("(max-width: 500px)").matches && <div  style={{"display" : !light && "none", "margin-left" : `${Math.floor(Math.random() * 80)}%`}} className={Styles.sprite2} />}
     </header>
   )
 }

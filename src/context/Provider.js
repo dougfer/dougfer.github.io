@@ -25,7 +25,7 @@ function Provider({children}) {
 
   useEffect(() => {
     lightning();
-    document.title = "Meu Portifólio"
+    document.title = "Meu Portfólio"
   }, [])
 
   const context = {

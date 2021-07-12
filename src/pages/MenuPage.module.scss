@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100%;
   margin-top: 80px;
+  overflow-y: auto;
   
   button {
     width: 70%;
@@ -11,5 +12,17 @@
     cursor: pointer;
     border-radius: 20px;
     position: relative;
+    z-index: 1000;
   }
 }
+
+
+@media (max-height: 500px) {
+  .mainContainer{
+    button {
+      margin: 10px;
+      height: 100vh;
+    }
+  }
+}
+

@@ -113,3 +113,12 @@
   }
 
 }
+
+
+@media (max-height: 500px) {
+  .cardContainer {
+    margin-top: 5%;
+    height: 90%;
+    padding: 3%;
+  }
+} 

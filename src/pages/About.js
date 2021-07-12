@@ -46,8 +46,8 @@ function About() {
           </div>
           {window.matchMedia("(max-width: 850px)").matches ?
           <div className={Styles.icons}>
-            <NavigateBeforeIcon onClick={() => setShow(false)} color="primary" style={{ fontSize: 60, "display": !show && "none"}} />
-            <NavigateNextIcon onClick={() => setShow(true)} color="primary" style={{ fontSize: 60, "display": show && "none"}}  />
+            <span><NavigateBeforeIcon onClick={() => setShow(false)} color="primary" style={{ fontSize: 60, "display": !show && "none"}} /></span>
+            <span><NavigateNextIcon onClick={() => setShow(true)} color="primary" style={{ fontSize: 60, "display": show && "none"}}  /></span>
           </div> 
           :''}
 

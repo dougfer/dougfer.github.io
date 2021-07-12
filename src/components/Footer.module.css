@@ -1,11 +1,11 @@
 .footer {
   background: url('../util/Images/backgroundFooter.png');
-  height: 250px;
+  height: 200px;
   bottom: 0;
-  position: absolute;
-  /* z-index: 9999; */
+  /* position: relative; */
+  z-index: 20;
   width: 100%;
-  overflow: hidden;
+  overflow-y: auto;
 
 }
 
@@ -43,4 +43,18 @@
   .dixieB {
     display: none;
   }
+  .footer {
+    overflow: scroll;
+    position: relative;
+  }
 }
+
+
+@media screen and (max-width: 500px) {
+  .footer {
+    overflow-y: auto;
+    position: relative;
+  }
+} 
+
+

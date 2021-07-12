@@ -91,3 +91,11 @@
   }
 
 }
+
+@media (max-height: 500px) {
+  .mainContainer {
+    height: 500px;
+    margin-top: 50px
+  }
+} 
+

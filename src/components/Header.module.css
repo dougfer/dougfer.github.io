@@ -42,3 +42,9 @@
     background-position: -1500px;
   }
 }
+
+ /* @media (max-height: 500px) {
+  .header {
+    height: 100%;
+  }
+}  */

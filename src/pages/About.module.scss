@@ -46,10 +46,10 @@
   display: flex;
   flex-direction: row;
   height: 80%;
+  overflow: auto;
 }
 
 .imageSection {
-  // background-color: red;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -58,12 +58,10 @@
   img {
     height: 50%;
     border-radius: 100%;
-    // background-color: aqua;
   }
 }
 
 .dataSection {
-  // background-color: aqua;
   width: 100%;
   color: black;
 
@@ -114,50 +112,46 @@
 
   .imageSection {
     img {
-      height: 70%;
+      height: 300px;
     }
   }
 
+  .aboutSection {
+    flex-direction: column;
+    overflow-x: hidden;
+    justify-content: space-between;
+  }
+
   .icons {
-    position: absolute;
-    bottom: 10%;
-    left: 45%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    bottom: 0;
   }
 
   .dataSection {
     padding: 20px;
+    overflow-y: auto;
   }
 
 }
 
-
-@media screen and (max-width: 550px) {
-  .mainContainer {
-    height: 90%;
-    margin-top: 50px;
-  }
-
-  .aboutSection {
-    justify-content: flex-start;
-  }
-
-  .imageSection {
-    justify-content: center;
-    align-items: flex-start;
-    height: 50%;
-
-    img {
-      height: 250px;
-    }
-  }
-
-
-}
-
-@media screen and (max-width: 350px) {
+@media screen and (max-width: 500px) {
   .mainContainer {
     height: 95%;
     margin-top: 50px;
   }
 
+  .imageSection {
+    img {
+      height: 200px;
+    }
+  }
+
+}
+
+@media (max-height: 500px) {
+  .mainContainer{
+    height: 550px;
+  }
 }

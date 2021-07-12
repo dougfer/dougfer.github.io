@@ -180,3 +180,14 @@
 
 
 }
+
+@media (max-height: 500px) {
+  .mainContainer{
+    height: 100%;
+  }
+
+  .section1 {
+    overflow: auto;
+  }
+}
+
