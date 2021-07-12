@@ -1,5 +1,5 @@
 .footer {
-  background: url('../util/Images/testeNew.png');
+  background: url('../util/Images/backgroundFooter.png');
   height: 250px;
   bottom: 0;
   position: absolute;
@@ -37,3 +37,10 @@
     left: -25%;
   }
 } 
+
+
+@media screen and (max-width: 850px) {
+  .dixieB {
+    display: none;
+  }
+}
