@@ -1,9 +1,11 @@
 .menuContainer {
-  position: absolute;
-  bottom: 400px; 
+  // position: absolute;
+  // bottom: 400px; 
+  display: flex;
+  justify-content: center;
   width: 15%;
   margin-left: 20px;
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+  // box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
   opacity: 0.8;
   display: flex;
   flex-direction: column;
@@ -54,5 +56,13 @@
 @media screen and (max-width: 850px) {
   .menuContainer {
     display: none;
+  }
+}
+
+
+@media (max-height: 800px) {
+  .menuContainer{
+    margin-top: 16%;
+    position: absolute;
   }
 }

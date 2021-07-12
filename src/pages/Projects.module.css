@@ -99,3 +99,16 @@
   }
 } 
 
+@media (min-height: 650px) and (min-width: 850px) {
+  .mainContainer {
+    height: 700px;
+    margin-top: 0;
+  }
+}
+@media (max-height: 650px) and (min-width: 850px) {
+  .mainContainer {
+    height: 700px;
+    margin-top: 0;
+  }
+} 
+
