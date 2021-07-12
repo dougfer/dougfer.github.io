@@ -52,7 +52,7 @@
   }
 }
 
-@media (max-height: 500px) {
+@media (max-height: 620px) {
   .claro {
     height: 700px;
   }
@@ -65,11 +65,11 @@
 
 @media (max-height: 800px) {
   .claro {
-    height: 900px;
+    height: 800px;
   }
 
   .escuro {
-    height: 900px;
+    height: 800px;
     overflow-y: scroll;
   }
 }

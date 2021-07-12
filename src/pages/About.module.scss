@@ -150,8 +150,18 @@
 
 }
 
-@media (max-height: 500px) {
+@media (max-height: 620px) {
   .mainContainer{
-    height: 550px;
+    height: 500px;
+    margin-top: 100px;
+
+  }
+}
+
+
+@media (max-height: 800px) {
+  .mainContainer{
+    height: 600px;
+    margin-top: 100px;
   }
 }

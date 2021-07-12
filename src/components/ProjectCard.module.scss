@@ -116,7 +116,7 @@
 
 }
 
-@media (max-height: 500px) {
+@media (max-height: 620px) {
   .CardContainer {
     padding-bottom: 0;
 
@@ -127,5 +127,18 @@
     }
   }
 } 
+
+@media (max-height: 800px) {
+  .CardContainer {
+    padding-bottom: 0;
+
+    button {
+      position: relative;
+      margin: auto;
+      left: auto;
+    }
+  }
+} 
+
 
 

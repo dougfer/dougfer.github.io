@@ -122,3 +122,11 @@
     padding: 3%;
   }
 } 
+
+@media (max-height: 650px) {
+  .cardContainer {
+    margin-top: 5%;
+    height: 90%;
+    padding: 3%;
+  }
+} 
