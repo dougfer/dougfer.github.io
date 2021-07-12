@@ -1,0 +1,115 @@
+.cardContainer {
+  margin: auto;
+  width: 50%;
+  background: linear-gradient(45deg, #E0EAFC, #CFDEF3);
+  border-radius: 25px;
+  padding: 30px 40px;
+  height: 60%;
+  margin-top: 5%;
+  box-shadow: 0 0 1em rgb(255,255,255, 0.5);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  ul {
+    margin-top: 20px
+  }
+
+  h2 {
+    margin:0 0 20px 0;
+  }
+
+  p {
+    margin:0 0 -100px 0;
+  }
+
+  li:nth-child(1) {
+    margin-top: 20px;
+  }
+
+  li {
+    margin-left: 40px;
+  }
+
+  a {
+    color: inherit; 
+    text-decoration: inherit;
+    width: 40px;
+  }
+}
+
+.links {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.close {
+  position: absolute;
+  right: 600px;
+  cursor: pointer;
+}
+
+
+@media screen and (max-width: 1650px) {
+  .close {
+    display: initial;
+    position: absolute;
+    right: 30%;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (max-width: 850px) {
+
+  .cardContainer {
+    width: 90%;
+    margin-top: 100px;
+  }
+
+  .close {
+    display: initial;
+    position: absolute;
+    right: 60px;
+    cursor: pointer;
+  }
+
+}
+
+
+@media screen and (max-width: 414px) {
+
+  .cardContainer {
+    width: 90%;
+    margin-top: 100px;
+
+    ul {
+      margin-top: 40px;
+    }
+  }
+
+  .close {
+    display: initial;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+  }
+
+}
+
+@media screen and (max-width: 375px) {
+
+  .cardContainer {
+    width: 90%;
+    margin-top: 100px;
+    height: 80%;
+  }
+
+  .close {
+    display: initial;
+    position: absolute;
+    right: 40px;
+    cursor: pointer;
+  }
+
+}
