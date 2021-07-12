@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/static/css/main.027aecbc.chunk.css",
+    "main.css": "/static/css/main.410ada37.chunk.css",
     "main.js": "/static/js/main.3990357a.chunk.js",
     "main.js.map": "/static/js/main.3990357a.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6e25623.js",
@@ -10,7 +10,7 @@
     "static/js/3.60a39989.chunk.js": "/static/js/3.60a39989.chunk.js",
     "static/js/3.60a39989.chunk.js.map": "/static/js/3.60a39989.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.027aecbc.chunk.css.map": "/static/css/main.027aecbc.chunk.css.map",
+    "static/css/main.410ada37.chunk.css.map": "/static/css/main.410ada37.chunk.css.map",
     "static/js/2.4e8365f5.chunk.js.LICENSE.txt": "/static/js/2.4e8365f5.chunk.js.LICENSE.txt",
     "static/media/MovieCardCRUD.491061f3.jpg": "/static/media/MovieCardCRUD.491061f3.jpg",
     "static/media/app.module.scss": "/static/media/background-dia-escuro.dda8d4f2.png",
@@ -30,7 +30,7 @@
   "entrypoints": [
     "static/js/runtime-main.c6e25623.js",
     "static/js/2.4e8365f5.chunk.js",
-    "static/css/main.027aecbc.chunk.css",
+    "static/css/main.410ada37.chunk.css",
     "static/js/main.3990357a.chunk.js"
   ]
 }
