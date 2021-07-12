@@ -1,0 +1,36 @@
+{
+  "files": {
+    "main.css": "/static/css/main.d32bb70b.chunk.css",
+    "main.js": "/static/js/main.4fe979d9.chunk.js",
+    "main.js.map": "/static/js/main.4fe979d9.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.c6e25623.js",
+    "runtime-main.js.map": "/static/js/runtime-main.c6e25623.js.map",
+    "static/js/2.32a0f50e.chunk.js": "/static/js/2.32a0f50e.chunk.js",
+    "static/js/2.32a0f50e.chunk.js.map": "/static/js/2.32a0f50e.chunk.js.map",
+    "static/js/3.60a39989.chunk.js": "/static/js/3.60a39989.chunk.js",
+    "static/js/3.60a39989.chunk.js.map": "/static/js/3.60a39989.chunk.js.map",
+    "index.html": "/index.html",
+    "static/css/main.d32bb70b.chunk.css.map": "/static/css/main.d32bb70b.chunk.css.map",
+    "static/js/2.32a0f50e.chunk.js.LICENSE.txt": "/static/js/2.32a0f50e.chunk.js.LICENSE.txt",
+    "static/media/MovieCardCRUD.491061f3.jpg": "/static/media/MovieCardCRUD.491061f3.jpg",
+    "static/media/app.module.scss": "/static/media/background-dia-escuro.dda8d4f2.png",
+    "static/media/Footer.module.css": "/static/media/backgroundFooter.5adad46b.png",
+    "static/media/bob1.4b6d9c2b.png": "/static/media/bob1.4b6d9c2b.png",
+    "static/media/crankyChair.b39ad12b.gif": "/static/media/crankyChair.b39ad12b.gif",
+    "static/media/crankyPlay.54db5f9f.gif": "/static/media/crankyPlay.54db5f9f.gif",
+    "static/media/dixieB.4d44cd29.gif": "/static/media/dixieB.4d44cd29.gif",
+    "static/media/donkey.068df78d.mp3": "/static/media/donkey.068df78d.mp3",
+    "static/media/expenses.27c526d8.gif": "/static/media/expenses.27c526d8.gif",
+    "static/media/Header.module.css": "/static/media/lightning.c093d854.png",
+    "static/media/line.977a25c6.png": "/static/media/line.977a25c6.png",
+    "static/media/loading.c7d9f081.gif": "/static/media/loading.c7d9f081.gif",
+    "static/media/recipe.7a0fd82c.gif": "/static/media/recipe.7a0fd82c.gif",
+    "static/media/Skills.module.scss": "/static/media/watching.0c146fe3.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.c6e25623.js",
+    "static/js/2.32a0f50e.chunk.js",
+    "static/css/main.d32bb70b.chunk.css",
+    "static/js/main.4fe979d9.chunk.js"
+  ]
+}
