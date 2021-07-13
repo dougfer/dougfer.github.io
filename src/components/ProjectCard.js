@@ -4,7 +4,6 @@ import Modal from '@material-ui/core/Modal';
 import ModalCard from './ModalCard';
 
 function ProjectCard ({data}) {
-
   const [modalIsOpen, setIsOpen ] = useState(false);
 
   const handleClose = () => {
@@ -19,8 +18,7 @@ function ProjectCard ({data}) {
       <Modal
         open={modalIsOpen}
         onClose={handleClose}
-        aria-labelledby="simple-modal-title"
-        aria-describedby="simple-modal-description"
+        className={Styles.modal}
       >
         <ModalCard close={setIsOpen} projectData={data} />
       </Modal>

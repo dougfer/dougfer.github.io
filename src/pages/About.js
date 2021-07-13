@@ -1,6 +1,6 @@
 import Styles from './About.module.scss';
 import line from '../util/Images/line.png';
-import bob from '../util/Images/teste/bob1.png';
+import profile from '../util/Images/profile.png'
 import LinkedInIcon from '@material-ui/icons/LinkedIn';
 import WhatsAppIcon from '@material-ui/icons/WhatsApp';
 import GitHubIcon from '@material-ui/icons/GitHub';
@@ -21,7 +21,7 @@ function About() {
         </header>
         <div  className={Styles.aboutSection}>
           <div style={  {"display": window.matchMedia("(max-width: 850px)").matches && show && "none"}} className={Styles.imageSection}>
-            <img src={bob} />
+            <img src={profile} alt="Profile" />
           </div>
           <div style={{"display": window.matchMedia("(max-width: 850px)").matches && !show && "none"}} className={Styles.dataSection}>
            <h4>Olá, meu nome é</h4><h2>Douglas Ferreira Pinto.</h2>
@@ -38,16 +38,16 @@ function About() {
             Entre em contato:
             <br></br>
             <div>
-              <a href="https://www.linkedin.com/in/douglas-ferreira-a74279b8/" target="_blank"><LinkedInIcon style={{ fontSize: 40 }} /></a>
-              <a href="https://web.whatsapp.com/send?phone=5531993249396" target="_blank"><WhatsAppIcon style={{ fontSize: 40 }} /></a>
-              <a href="https://github.com/dougfer" target="_blank"><GitHubIcon style={{ fontSize: 40 }} /></a>
+              <a without rel="noreferrer" href="https://www.linkedin.com/in/douglas-ferreira-a74279b8/" target="_blank"><LinkedInIcon style={{ fontSize: 40 }} /></a>
+              <a without rel="noreferrer" href="https://web.whatsapp.com/send?phone=5531993249396" target="_blank"><WhatsAppIcon style={{ fontSize: 40 }} /></a>
+              <a without rel="noreferrer" href="https://github.com/dougfer" target="_blank"><GitHubIcon style={{ fontSize: 40 }} /></a>
             </div>
           </footer>
           </div>
           {window.matchMedia("(max-width: 850px)").matches ?
           <div className={Styles.icons}>
-            <span><NavigateBeforeIcon onClick={() => setShow(false)} color="primary" style={{ fontSize: 60, "display": !show && "none"}} /></span>
-            <span><NavigateNextIcon onClick={() => setShow(true)} color="primary" style={{ fontSize: 60, "display": show && "none"}}  /></span>
+            <span onClick={() => setShow(false)} ><NavigateBeforeIcon  color="primary" style={{ fontSize: 60, "display": !show && "none", cursor: "pointer"}} /></span>
+            <span onClick={() => setShow(true)}><NavigateNextIcon color="primary" style={{ fontSize: 60, "display": show && "none", cursor: "pointer"}}  /></span>
           </div> 
           :''}
 

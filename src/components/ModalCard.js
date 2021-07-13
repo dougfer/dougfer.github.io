@@ -17,8 +17,8 @@ function ModalCard({projectData, close}) {
         </ul>
       </div>
       <div className={Styles.links}>
-        <a href={projectData.githubLink} target="_blank"><GitHubIcon fontSize="large" /></a>
-        { projectData.githubPage ?  <a href={projectData.githubPage} target="_blank"><ComputerIcon fontSize="large" /></a> : ''}
+        <a href={projectData.githubLink} without rel="noreferrer" target="_blank"><GitHubIcon fontSize="large" /></a>
+        { projectData.githubPage ?  <a without rel="noreferrer" href={projectData.githubPage} target="_blank"><ComputerIcon fontSize="large" /></a> : ''}
       </div>
     </div>
   )

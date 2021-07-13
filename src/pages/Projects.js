@@ -66,8 +66,8 @@ function Projects() {
         </div>}
         {window.matchMedia("(max-width: 850px)").matches ?
         <div className={Styles.navigate}>
-          <NavigateBeforeIcon onClick={handleBefore} color="primary" style={{ fontSize: 60}} />
-          <NavigateNextIcon onClick={handleNext} color="primary" style={{ fontSize: 60 }} />
+          <NavigateBeforeIcon onClick={handleBefore} color="primary" style={{ fontSize: 60, cursor: "pointer"}} />
+          <NavigateNextIcon onClick={handleNext} color="primary" style={{ fontSize: 60, cursor: "pointer" }} />
         </div> : ''}
         <div className={Styles.navigate}>
           <span><NavigateBeforeIcon onClick={() => handleFullBefore()} color="primary" style={{ fontSize: 60}} /></span>
