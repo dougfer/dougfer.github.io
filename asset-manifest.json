@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.86a3a3db.chunk.css",
-    "main.js": "/static/js/main.6f6d2994.chunk.js",
-    "main.js.map": "/static/js/main.6f6d2994.chunk.js.map",
+    "main.js": "/static/js/main.d06d56e5.chunk.js",
+    "main.js.map": "/static/js/main.d06d56e5.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6e25623.js",
     "runtime-main.js.map": "/static/js/runtime-main.c6e25623.js.map",
-    "static/js/2.c75351ae.chunk.js": "/static/js/2.c75351ae.chunk.js",
-    "static/js/2.c75351ae.chunk.js.map": "/static/js/2.c75351ae.chunk.js.map",
+    "static/js/2.f8380043.chunk.js": "/static/js/2.f8380043.chunk.js",
+    "static/js/2.f8380043.chunk.js.map": "/static/js/2.f8380043.chunk.js.map",
     "static/js/3.60a39989.chunk.js": "/static/js/3.60a39989.chunk.js",
     "static/js/3.60a39989.chunk.js.map": "/static/js/3.60a39989.chunk.js.map",
     "index.html": "/index.html",
     "static/css/main.86a3a3db.chunk.css.map": "/static/css/main.86a3a3db.chunk.css.map",
-    "static/js/2.c75351ae.chunk.js.LICENSE.txt": "/static/js/2.c75351ae.chunk.js.LICENSE.txt",
+    "static/js/2.f8380043.chunk.js.LICENSE.txt": "/static/js/2.f8380043.chunk.js.LICENSE.txt",
     "static/media/MovieCardCRUD.491061f3.jpg": "/static/media/MovieCardCRUD.491061f3.jpg",
     "static/media/app.module.scss": "/static/media/background-dia-escuro.dda8d4f2.png",
     "static/media/Footer.module.css": "/static/media/backgroundFooter.5adad46b.png",
@@ -29,8 +29,8 @@
   },
   "entrypoints": [
     "static/js/runtime-main.c6e25623.js",
-    "static/js/2.c75351ae.chunk.js",
+    "static/js/2.f8380043.chunk.js",
     "static/css/main.86a3a3db.chunk.css",
-    "static/js/main.6f6d2994.chunk.js"
+    "static/js/main.d06d56e5.chunk.js"
   ]
 }
