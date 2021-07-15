@@ -9,9 +9,9 @@ import Provider from './context/Provider';
 ReactDOM.render(
     <React.StrictMode>
     <Provider>
-      <BrowserRouter>
+      <HashRouter>
         <App />
-      </BrowserRouter>
+      </HashRouter>
     </Provider>
     </React.StrictMode>,
   document.getElementById('root')

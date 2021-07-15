@@ -38,7 +38,7 @@ function About() {
             Entre em contato:
             <br></br>
             <div>
-              <a without rel="noreferrer" href="https://www.linkedin.com/in/douglas-ferreira-a74279b8/" target="_blank"><LinkedInIcon style={{ fontSize: 40 }} /></a>
+              <a without rel="noreferrer" href="https://www.linkedin.com/in/devdougferreira/" target="_blank"><LinkedInIcon style={{ fontSize: 40 }} /></a>
               <a without rel="noreferrer" href="https://web.whatsapp.com/send?phone=5531993249396" target="_blank"><WhatsAppIcon style={{ fontSize: 40 }} /></a>
               <a without rel="noreferrer" href="https://github.com/dougfer" target="_blank"><GitHubIcon style={{ fontSize: 40 }} /></a>
             </div>
