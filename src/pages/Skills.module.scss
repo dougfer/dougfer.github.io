@@ -112,7 +112,7 @@
   .mainContainer {
     width: 100%;
     left: 0;
-    height: 90%;
+    height: 700px;
     margin-top: 70px;
   }
   
@@ -131,8 +131,8 @@
   .mainContainer {
     width: 100%;
     left: 0;
-    height: 90%;
-    margin-top: 70px;
+    height: 700px;
+    margin-top: 100px;
   }
 
   .section1 {
@@ -149,8 +149,8 @@
   .mainContainer {
     width: 100%;
     left: 0;
-    height: 90%;
-    margin-top: 70px;
+    // height: 90%;
+    // margin-top: 70px;
   }
   .mainSection {
     background: none;
@@ -181,9 +181,9 @@
 
 }
 
-@media (max-height: 500px) {
+@media (max-height: 620px) {
   .mainContainer{
-    height: 90%;
+    height: 500px;
   }
 
   .section1 {
@@ -193,7 +193,7 @@
 
 @media (max-height: 800px) {
   .mainContainer{
-    height: 500px;
+    height: 600px;
     margin-top: 100px
   }
 
