@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.4e0bd5b4.chunk.css",
-    "main.js": "/static/js/main.b2234c07.chunk.js",
-    "main.js.map": "/static/js/main.b2234c07.chunk.js.map",
+    "main.css": "/static/css/main.ee5520b3.chunk.css",
+    "main.js": "/static/js/main.d5cb3866.chunk.js",
+    "main.js.map": "/static/js/main.d5cb3866.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.c6e25623.js",
     "runtime-main.js.map": "/static/js/runtime-main.c6e25623.js.map",
     "static/js/2.f8380043.chunk.js": "/static/js/2.f8380043.chunk.js",
@@ -10,7 +10,7 @@
     "static/js/3.60a39989.chunk.js": "/static/js/3.60a39989.chunk.js",
     "static/js/3.60a39989.chunk.js.map": "/static/js/3.60a39989.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.4e0bd5b4.chunk.css.map": "/static/css/main.4e0bd5b4.chunk.css.map",
+    "static/css/main.ee5520b3.chunk.css.map": "/static/css/main.ee5520b3.chunk.css.map",
     "static/js/2.f8380043.chunk.js.LICENSE.txt": "/static/js/2.f8380043.chunk.js.LICENSE.txt",
     "static/media/MovieCardCRUD.491061f3.jpg": "/static/media/MovieCardCRUD.491061f3.jpg",
     "static/media/app.module.scss": "/static/media/background-dia-escuro.dda8d4f2.png",
@@ -25,12 +25,13 @@
     "static/media/loading.c7d9f081.gif": "/static/media/loading.c7d9f081.gif",
     "static/media/profile.d596252e.png": "/static/media/profile.d596252e.png",
     "static/media/recipe.7a0fd82c.gif": "/static/media/recipe.7a0fd82c.gif",
+    "static/media/swapi.6d900dd8.jpg": "/static/media/swapi.6d900dd8.jpg",
     "static/media/Skills.module.scss": "/static/media/watching.0c146fe3.png"
   },
   "entrypoints": [
     "static/js/runtime-main.c6e25623.js",
     "static/js/2.f8380043.chunk.js",
-    "static/css/main.4e0bd5b4.chunk.css",
-    "static/js/main.b2234c07.chunk.js"
+    "static/css/main.ee5520b3.chunk.css",
+    "static/js/main.d5cb3866.chunk.js"
   ]
 }
