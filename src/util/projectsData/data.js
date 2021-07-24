@@ -1,6 +1,7 @@
 import recipes from './recipe.gif';
 import expenses from './expenses.gif';
 import movieCard from './MovieCardCRUD.jpg';
+import swapicard from './swapi.jpg';
 const data = [
   {
     name: "App de Receitas",
@@ -24,7 +25,15 @@ const data = [
     description: "Projeto realizado durante o módulo de front-end da Trybe. É possível realizar consultas, editar e adicionar cards de filmes.",
     tech: ["React", "CSS"],
     image: movieCard,
-  }
+  },
+  {
+    name: "Swapi Cards",
+    githubLink: "https://github.com/dougfer/Swapi-cards",
+    githubPage: "https://swapi-cards.netlify.app/",
+    description: "Projeto Pessoal. É possível realizar consulta de cards com informações sobre o universo de Star Wars. Utilizadas API's externas para consultas.",
+    tech: ["React", "React Hooks", "CSS", "Material-UI"],
+    image: swapicard,
+  },
 ]
 
 export default data;
